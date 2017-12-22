@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_liste_enseignant" value="name:id_enseignant;datatype:int,name:email_enseignant;datatype:string,name:nom_enseignant;datatype:string,name:prenom_enseignant;datatype:string,name:password_enseignant;datatype:string,name:photo_enseignant;datatype:string" />
+</info>

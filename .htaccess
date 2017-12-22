@@ -1,0 +1,30 @@
+#RewriteBase /
+#DirectoryIndex /admin/connexion/
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#Rewrite ^(.*)$ $1.php
+
+# disable directory browsing
+        
+       # Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
+        
+        # enable directory browsing
+       # Options All +Indexes
+
+
+#RewriteBase /i-unlock-world-wide/
+#DirectoryIndex /i-unlock-world-wide/
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#Rewrite ^(.*)$ $1.php
+
+
+# disable directory browsing
+        
+ #       Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
+        
+        # enable directory browsing
+  #      Options All +Indexes
+DirectoryIndex index.html

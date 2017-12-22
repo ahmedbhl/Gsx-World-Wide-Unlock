@@ -1,0 +1,8 @@
+RewriteBase /accueil_client.php
+DirectoryIndex accueil_client.php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+#Rewrite ^(.*)$ $1.php
+
+

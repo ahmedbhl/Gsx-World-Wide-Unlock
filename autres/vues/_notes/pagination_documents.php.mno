@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_liste_documents" value="name:id_doc;datatype:int,name:libelle_doc;datatype:string,name:format_doc;datatype:string,name:resume_doc;datatype:blob,name:date_insertion;datatype:date,name:etat_doc;datatype:int,name:type;datatype:string,name:id_cour;datatype:int" />
+</info>

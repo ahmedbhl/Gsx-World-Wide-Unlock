@@ -1,0 +1,8 @@
+RewriteBase /
+DirectoryIndex /
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+#Rewrite ^(.*)$ $1.php
+
+
